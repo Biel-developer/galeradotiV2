@@ -23,7 +23,6 @@ function App() {
             <button>explorar<img src={explorar}/></button>
         </div>
       </div>
-      <Discord/>
     </div>
   );
 }
