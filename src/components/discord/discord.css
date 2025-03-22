@@ -1,28 +1,51 @@
+.discord-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+/* Estilização do título */
 h1 {
     background-color: #955FFF;
-    color: white;
+    font-size: 3vw; 
+    font-weight: bold;
+    color: white; 
     padding: 10px;
     border-radius: 20px;
-    text-align: center;
-    width: 50vw;
-    margin: 20px auto; /* Centraliza o h1 */
-    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+    margin-top: 20px;
 }
 
-.discord {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 90vh;
-    width: 100vw; 
-    flex-direction: column; 
+
+.discord img {
+    width: 150vw; 
+    max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.discord >  a > img {
-    height: 80vh; 
-    width: 90vw; 
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; 
-    border-radius: 30px;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3vw; 
+    }
+
+    .discord img {
+        width: 120vw; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3vw;
+    }
+
+    .discord img {
+        width: 100vw;
+    }
 }
