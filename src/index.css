@@ -7,7 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'CodeBold';
+  src: url('../fonts/codebold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: 'CodeBold';
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'code-bold',
     monospace;
 }
+ 
