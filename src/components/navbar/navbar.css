@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Evita que o padding estoure o layout */
+    font-family: 'CodeBold', sans-serif;
 }
 
 :root {
@@ -33,10 +34,11 @@
     z-index: 999999;
     max-width: 100vw; /* Evita estouro da largura */
     overflow: hidden;
+    font-family: codebold;
 }
 
 .nav .logo img {
-    width: 200px; /* Reduzido para evitar que empurre os elementos */
+    width: 120px; /* Reduzido para evitar que empurre os elementos */
 }
 
 .navbar .menu-navbar {
