@@ -66,5 +66,45 @@ Se desejar utilizar uma fonte personalizada no projeto, adicione o seguinte cód
 
 ---
 
-💡 **Dica:** Manter um README bem estruturado e organizado facilita a compreensão do projeto e melhora a experiência dos desenvolvedores!
+# 🔄 Atualizando sua Branch com a Main
+
+Siga os passos abaixo para atualizar sua branch com as últimas alterações da `main` no **Visual Studio Code**.
+
+## 📌 Passo 1: Certifique-se de estar na sua branch atual  
+(Substitua `sua-branch` pelo nome correto da sua branch.)  
+
+```bash
+git checkout sua-branch
+```
+
+## 📌 Passo 2: Atualize a branch `main` com as últimas mudanças do repositório remoto  
+
+```bash
+git fetch origin
+git checkout main
+git pull origin main
+```
+
+## 📌 Passo 3: Volte para sua branch e traga as mudanças da `main`  
+
+```bash
+git checkout sua-branch
+git merge main
+```
+
+## ⚠️ Resolvendo conflitos (se houver)  
+Se houver conflitos, o **VS Code** destacará os arquivos afetados. Resolva os conflitos manualmente, depois execute os seguintes comandos:
+
+```bash
+git add .
+git commit -m "Merge com as atualizações da main"
+```
+
+## 📌 Passo 4: Envie as alterações para o repositório remoto (se necessário)  
+
+```bash
+git push origin sua-branch
+```
+
+
 
