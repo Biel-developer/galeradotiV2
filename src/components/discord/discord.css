@@ -9,7 +9,7 @@
 }
 
 /* Estilização do título */
-h1 {
+.discord-container h1 {
     background-color: #955FFF;
     font-size: 3vw; 
     font-weight: bold;

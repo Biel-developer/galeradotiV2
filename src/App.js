@@ -5,6 +5,7 @@ import explorar from "./img/explorar.png";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import Discord from "./components/discord/discord";
+import Professor from "./Page/Professor/professor"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <button>explorar<img src={explorar}/></button>
         </div>
       </div>
+      <Professor />
     </div>
   );
 }
