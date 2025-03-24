@@ -3,6 +3,8 @@ import './App.css';
 import banner from "./img/banner.png";
 import explorar from "./img/explorar.png";
 import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
+import Discord from "./components/discord/discord";
 
 function App() {
   return (
