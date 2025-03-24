@@ -3,6 +3,7 @@ import './App.css';
 import banner from "./img/banner.png";
 import explorar from "./img/explorar.png";
 import Navbar from "./components/navbar/navbar";
+import Equipe from './components/equipe/equipe';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <button>explorar<img src={explorar}/></button>
         </div>
       </div>
+      <Equipe />
     </div>
   );
 }
