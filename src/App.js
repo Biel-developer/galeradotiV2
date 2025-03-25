@@ -3,6 +3,12 @@ import './App.css';
 import banner from "./img/banner.png";
 import explorar from "./img/explorar.png";
 import Navbar from "./components/navbar/navbar";
+<<<<<<< Updated upstream
+=======
+import Footer from "./components/footer/footer";
+import Discord from "./components/discord/discord";
+import Professor from "./Page/Professor/professor"
+>>>>>>> Stashed changes
 import Equipe from './components/equipe/equipe';
 
 function App() {
@@ -22,6 +28,10 @@ function App() {
             <button>explorar<img src={explorar}/></button>
         </div>
       </div>
+<<<<<<< Updated upstream
+=======
+      <Professor />
+>>>>>>> Stashed changes
       <Equipe />
     </div>
   );

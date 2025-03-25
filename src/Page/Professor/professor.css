@@ -1,0 +1,114 @@
+.professor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que ocupe toda a tela */
+    width: 100vw; /* Ocupa toda a largura */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita rolagem indesejada */
+}
+
+.professor-degrade {
+    display: flex;
+    flex-direction: column; /* Elementos em coluna */
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Garante que cubra toda a largura */
+    min-height: 100vh; /* Garante que cubra toda a altura */
+    background-image: url("../../img/Degrade.png");
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetições */
+}
+
+.foto-professor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px black;
+}
+
+.foto-professor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.professor-degrade h1 {
+    padding-top: 20px;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px white;
+}
+
+.professor-degrade h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0.8vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icons img {
+    justify-content: space-between;
+    max-width: 90px;
+    max-height: 90px;
+    bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .foto-professor {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    .professor-degrade h1 {
+        font-size: 6vw;
+    }
+
+    .professor-degrade h2 {
+        font-size: 2.5vw;
+    }
+
+    .icons img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-professor {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .professor-degrade h1 {
+        font-size: 7vw;
+    }
+
+    .professor-degrade h2 {
+        font-size: 6vw;
+    }
+
+    .icons img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
