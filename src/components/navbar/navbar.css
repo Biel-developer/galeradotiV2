@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Evita que o padding estoure o layout */
+    box-sizing: border-box; 
     font-family: 'CodeBold', sans-serif;
 }
 
@@ -11,7 +11,7 @@
     --button-navbar: #955FFF;
 }
 
-.nav {
+.nav1 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -19,7 +19,7 @@
     z-index: 999999;
 }
 
-.navbar {
+.navbar1 {
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 15px 20px; 
+    padding: 10px 7vw;
     background: var(--navbar-background);
     backdrop-filter: blur(5px);
     z-index: 999999;
@@ -38,18 +38,19 @@
     font-family: codebold;
 }
 
-.nav .logo img {
+
+.nav1 .logo img {
     max-width: 100px;
     height: auto;
 }
 
-.navbar .menu-navbar {
+.navbar1 .menu-navbar1 {
     flex-grow: 1; /* Ocupa o espaço disponível */
     display: flex;
-    justify-content: flex-end; /* Alinha os itens no final */
+    justify-content: flex-end; 
 }
 
-.navbar .menu-navbar ul {
+.navbar1 .menu-navbar1 ul {
     display: flex;
     align-items: center;
     list-style: none;
@@ -58,7 +59,7 @@
     gap: 1rem; 
 }
 
-.navbar .menu-navbar li a {
+.navbar1 .menu-navbar1 li a {
     text-decoration: none;
     color: var(--color-font);
     font-size: 20px; 
@@ -66,18 +67,18 @@
     padding: 5px 8px;
 }
 
-.navbar .menu-navbar li a:hover {
+.navbar1 .menu-navbar1 li a:hover {
     background: var(--button-navbar);
     border-radius: 18px;
 }
 
-.navbar .menu-navbar .home {
+.navbar1 .menu-navbar1 .home {
     background: var(--button-navbar);
     padding: 5px 10px;
     border-radius: 18px;
 }
 
-/* Evita rolagem horizontal na página */
+
 body {
     overflow-x: hidden;
 }

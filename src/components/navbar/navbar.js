@@ -1,14 +1,16 @@
 import "./navbar.css";
 import logo from "../../img/logo.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Navbar() {
     return (
-        <div className="nav container">
-            <header className="navbar">
+        <div className="nav1">
+            <header className="navbar1">
                 <div className="logo">
                     <img src={logo} alt="logo" />  {}
                 </div>
-                <div className="menu-navbar">
+                <div className="menu-navbar1">
                     <ul>
                         <li><a className="home" href="#">Home</a></li>
                         <li><a href="#">Professores</a></li>
