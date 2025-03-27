@@ -1,0 +1,51 @@
+.discord-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+/* Estilização do título */
+.discord-container h1 {
+    background-color: #955FFF;
+    font-size: 3vw; 
+    font-weight: bold;
+    color: white; 
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+
+.discord img {
+    width: 150vw; 
+    max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3vw; 
+    }
+
+    .discord img {
+        width: 120vw; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3vw;
+    }
+
+    .discord img {
+        width: 100vw;
+    }
+}
