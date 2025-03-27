@@ -3,10 +3,10 @@ import logo from "../../img/logo.png";
 
 function Navbar() {
     return (
-        <div className="nav">
+        <div className="nav container">
             <header className="navbar">
                 <div className="logo">
-                    <img src={logo} alt="logo" />  {/* Feche corretamente a tag img */}
+                    <img src={logo} alt="logo" />  {}
                 </div>
                 <div className="menu-navbar">
                     <ul>
