@@ -29,8 +29,8 @@
     align-items: center;
     width: 30vw;
     height: 30vw;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid white;
@@ -45,7 +45,7 @@
 
 /* Estilizando o nome */
 .professor-degrade h1 {
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 4vw;
     color: white;
     text-align: center;
@@ -54,14 +54,14 @@
 }
 
 .professor-degrade h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
     color: white;
     text-align: center;
     font-weight: bold;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .icons img {
@@ -69,27 +69,81 @@
     max-width: 90px;
     max-height: 90px;
     bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media (max-width: 1250px) {
+    .foto-professor {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .professor-degrade h1 {
+        font-size: 5vw;
+    }
+
+    .professor-degrade h2 {
+        font-size: 2vw;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .icons img {
+        max-width: 70px;
+        max-height: 70px;
+    }
 }
 
 /* Ajustes para telas menores */
 @media (max-width: 768px) {
     .foto-professor {
-        width: 50vw;
-        height: 50vw;
+        width: 35vw;
+        height: 35vw;
     }
 
     .professor-degrade h1 {
-        font-size: 6vw;
+        font-size: 5vw;
+    }
+
+    .professor-degrade h2 {
+        font-size: 2vw;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .icons img {
+        max-width: 70px;
+        max-height: 70px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .foto-professor {
-        width: 70vw;
-        height: 70vw;
+        width: 40vw;
+        height: 40vw;
     }
 
     .professor-degrade h1 {
-        font-size: 7vw;
+        font-size: 2em;
+    }
+
+    .professor-degrade h2 {
+        font-size: 3vw;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .icons img {
+        max-width: 60px;
+        max-height: 60px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }

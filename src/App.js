@@ -3,13 +3,11 @@ import './App.css';
 import banner from "./img/banner.png";
 import explorar from "./img/explorar.png";
 import Navbar from "./components/navbar/navbar";
-<<<<<<< HEAD
 import Footer from "./components/footer/footer";
 import Discord from "./components/discord/discord";
 import Professor from "./Page/Professor/professor"
-=======
 import Equipe from './components/equipe/equipe';
->>>>>>> main
+import Latech from "./Page/Latech/latech"
 
 function App() {
   return (
@@ -28,11 +26,6 @@ function App() {
             <button>explorar<img src={explorar}/></button>
         </div>
       </div>
-<<<<<<< HEAD
-      <Professor />
-=======
-      <Equipe />
->>>>>>> main
     </div>
   );
 }
