@@ -2,37 +2,37 @@
   {
     "id": 1,
     "nome": "Leonardo Bezerra da Silva",
-    "img": "/img/logo.png",
-    "cargo": "Designer, Desenvolvedor"
+    "img": "/equipe/leo.png",
+    "cargo": "Desenvolvedor e Designer"
   },
   {
     "id": 2,
     "nome": "Carlos Eduardo Carfi Silva",
-    "img": "/img/equipeFoto/teste.jpg",
-    "cargo": "Designer, Desenvolvedor"
+    "img": "/equipe/cadu.jpg",
+    "cargo": "Desenvolvedor e Designer"
   },
   {
     "id": 3,
     "nome": "Filipe Ruiz Boligon",
-    "img": "/img/carlos.png",
-    "cargo": "Designer, Desenvolvedor"
+    "img": "/equipe/filipe-boligon.jpeg",
+    "cargo": "Desenvolvedor e Designer"
   },
   {
     "id": 4,
     "nome": "Gabriel Nascimento",
-    "img": "/img/ana.png",
-    "cargo": "Designer, Desenvolvedor, CEO"
+    "img": "/equipe/gabriel-nascimento.jpg",
+    "cargo": "Desenvolvedor, Designer e CEO"
   },
   {
     "id": 5,
     "nome": "Lucas de Oliveira Lima",
-    "img": "/img/pedro.png",
-    "cargo": "CiberSegurança, CEO"
+    "img": "/equipe/lucas-oliveira-lima.jpeg",
+    "cargo": "CiberSegurança e CEO"
   },
   {
     "id": 6,
     "nome": "Alexandre Lozano de Souza",
-    "img": "/img/julia.png",
-    "cargo": "Desenvolvedor, CEO"
+    "img": "/equipe/lozano.jpg",
+    "cargo": "Desenvolvedor e CEO"
   }
 ]

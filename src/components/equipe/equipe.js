@@ -17,10 +17,10 @@ function Equipe() {
   const segundaLinha = equip.slice(3, 6); 
 
   return (
-    <div className="equipe">
-      <h1>Equipe</h1>
+    <div className='equipe-degrade'>
+      <div className="equipe">
+      <h4>Equipe</h4>
       <div className="equipe-grid">
-        {/* Primeira linha */}
         <div className="equipe-row">
           {primeiraLinha.map(equipe => (
             <div key={equipe.id} className="equipe-card">
@@ -31,7 +31,6 @@ function Equipe() {
           ))}
         </div>
 
-        {/* Segunda linha */}
         <div className="equipe-row">
           {segundaLinha.map(equipe => (
             <div key={equipe.id} className="equipe-card">
@@ -42,6 +41,7 @@ function Equipe() {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 }

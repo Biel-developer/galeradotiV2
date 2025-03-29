@@ -8,14 +8,13 @@
     padding: 20px;
 }
 
-/* Estilização do título */
-.discord-container h1 {
+.discord-container h4 {
     background-color: #955FFF;
-    font-size: 3vw; 
+    font-size: 1vw; 
     font-weight: bold;
     color: white; 
-    padding: 10px;
-    border-radius: 20px;
+    padding: 10px 4vw;
+    border-radius: 5px;
     text-transform: uppercase;
     margin-bottom: 20px; 
     margin-top: 20px;
@@ -23,7 +22,7 @@
 
 
 .discord img {
-    width: 150vw; 
+    width: 50vw; 
     max-width: 80%; 
     height: auto;
     border-radius: 10px;
@@ -49,3 +48,26 @@
         width: 100vw;
     }
 }
+
+.discord-degrade {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    min-height: 100vh; 
+    background-image: url("../../img/Degrade.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.discord-text {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .discord-text.animate__animated {
+    opacity: 1;
+  }
+  
