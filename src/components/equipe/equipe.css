@@ -1,55 +1,83 @@
-.equipe {
+  .equipe-degrade {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    min-height: 100vh; 
+    background-image: url("../../img/Degrade.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+
+  .equipe {
     color: white;
     text-align: center;
     padding: 40px 20px;
     border-radius: 10px;
   }
-  
-  .equipe h1 {
-    font-size: 32px;
+
+  .equipe h4 {
+    font-size: 2vw;
+    font-family: "CodeBold";
     color: #ffffff;
-    background: linear-gradient(to bottom, #2a0053, #3c0070);
-    margin-bottom: 40px;
-    margin-left: 45%;
-    margin-right: 45%;
-    border-radius: 80px;
+    background: #955FFF;
+    padding: 5px 20px;
+    border-radius: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 40px;
   }
-  
+
   .equipe-grid {
     display: grid;
     grid-template-rows: repeat(2, auto);
     gap: 20px;
     padding: 0 20px;
   }
-  
+
   .equipe-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .equipe-card {
     padding-top: 50px;
     border-radius: 8px;
   }
-  
+
   .equipe-card img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 15px;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border: 3px solid #955FFF;
   }
-  
+
   .equipe-card h2 {
     font-size: 1.5em;
     margin: 10px 0;
     color: #fff;
   }
-  
+
   .equipe-card p {
     font-size: 1em;
     color: #ffffff;
     margin: 0;
   }
+
+  .equipe-text {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .equipe-text.animate__animated {
+    opacity: 1;
+  }
+  

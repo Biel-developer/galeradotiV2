@@ -9,6 +9,8 @@ import Discord from "./components/discord/discord";
 import Professor from "./Page/Professor/professor";
 import Equipe from './components/equipe/equipe';
 import 'animate.css';
+import { useInView } from 'react-intersection-observer';
+
 
 function App() {
   const [animateText, setAnimateText] = useState(false);
@@ -54,13 +56,16 @@ function App() {
 
       {animateText && (
         <>
-          <div className="animate__animated animate__backInLeft">
+          <div>
             <Professor />
           </div>
-          <div className="animate__animated animate__backInRight">
+          <div>
+            <Discord />
+          </div>
+          <div>
             <Equipe />
           </div>
-          <div className="animate__animated animate__backInLeft">
+          <div>
             <Footer />
           </div>
         </>
